@@ -1,7 +1,7 @@
 ﻿#if WINDOWS
 	using Microsoft.UI;
 	using Microsoft.UI.Windowing;
-	using Microsoft.Graphics;
+	using Windows.Graphics;
 #endif
 
 namespace Scientific_Calculator;
