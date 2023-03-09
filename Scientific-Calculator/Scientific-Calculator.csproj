@@ -53,4 +53,16 @@
 	  <None Remove="Resources\Fonts\Cairo-Light.ttf" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Compile Update="Views\CalculatorPage.xaml.cs">
+	    <DependentUpon>CalculatorPage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\CalculatorPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>
