@@ -54,6 +54,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <PackageReference Include="CommunityToolkit.Mvvm" Version="8.1.0" />
+	  <PackageReference Include="NCalcSync" Version="3.4.0" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <Compile Update="Views\CalculatorPage.xaml.cs">
 	    <DependentUpon>CalculatorPage.xaml</DependentUpon>
 	  </Compile>
