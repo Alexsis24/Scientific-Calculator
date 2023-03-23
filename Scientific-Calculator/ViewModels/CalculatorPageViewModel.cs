@@ -76,7 +76,7 @@
         }
 
         [RelayCommand]
-        private void BackSpace()
+        private void Backspace()
         {
             if (InputText.Length>0)
             {
